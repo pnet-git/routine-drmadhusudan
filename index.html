@@ -58,9 +58,9 @@ h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:700;line-height:1.12
 /* BOLLYWOOD MARQUEE */
 .trust{background:#fff;padding:34px 0 38px;border-top:1px solid var(--cream-dark);border-bottom:1px solid var(--cream-dark);overflow:hidden;}
 .trust .t-label{text-align:center;font-size:13px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-weight:700;margin-bottom:22px;}
-.marquee{display:flex;gap:22px;width:max-content;animation:scroll 30s linear infinite;}
+.marquee{display:flex;gap:22px;width:max-content;animation:scroll 28s linear infinite;will-change:transform;}
 .trust:hover .marquee{animation-play-state:paused;}
-.marquee img{height:120px;width:auto;border-radius:12px;object-fit:cover;box-shadow:0 6px 18px rgba(91,14,37,0.12);}
+.marquee img{height:120px;width:auto;flex-shrink:0;border-radius:12px;object-fit:cover;box-shadow:0 6px 18px rgba(91,14,37,0.12);}
 @keyframes scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
 
 /* BELIEF SHIFT + PHOTO */
