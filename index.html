@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daily Power Routine — Free from Dr. Madhu Sudan</title>
+<meta name="description" content="The free daily routine Dr. Madhu's patients use to rebuild stamina, energy and confidence — naturally, without pills. Get the 1-page checklist free.">
+<meta property="og:title" content="The Free Daily Routine Dr. Madhu's Patients Swear By">
+<meta property="og:description" content="5 minutes a day. No pills. The simple checklist that rebuilds stamina, energy and confidence — naturally.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --maroon:#8B1538; --maroon-dark:#5C0E25; --gold:#C9A14A; --gold-light:#E5C77E;
+  --cream:#FAF6EE; --cream-dark:#F0E9DC; --ink:#3a2e28;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;font-size:16px;overflow-x:hidden;}
+img{max-width:100%;height:auto;}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:700;line-height:1.12;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px;}
+.accent{color:var(--maroon);font-style:italic;}
+.cta-primary{display:inline-block;width:100%;background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-dark) 100%);color:var(--cream);padding:18px 34px;border-radius:50px;font-size:17px;font-weight:700;text-decoration:none;border:none;cursor:pointer;box-shadow:0 8px 24px rgba(139,21,56,0.35);transition:all .3s ease;font-family:'DM Sans',sans-serif;}
+.cta-primary:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(139,21,56,0.45);}
+
+/* HERO */
+.hero{background:linear-gradient(180deg,var(--cream) 0%,var(--cream-dark) 100%);padding:52px 20px 60px;}
+.hero-grid{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1.1fr 0.9fr;gap:48px;align-items:center;}
+.hero-eyebrow{display:inline-block;background:rgba(201,161,74,0.18);border:1px solid var(--gold);color:var(--maroon);font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:7px 16px;border-radius:50px;margin-bottom:18px;}
+.hero h1{font-size:44px;color:var(--maroon-dark);margin-bottom:16px;}
+.hero-sub{font-size:18px;color:#5c5048;margin-bottom:24px;max-width:540px;}
+.discover{list-style:none;margin:0 0 26px;padding:0;}
+.discover li{position:relative;padding-left:32px;margin-bottom:13px;font-size:16px;color:var(--ink);line-height:1.5;}
+.discover li::before{content:'🔑';position:absolute;left:0;top:1px;font-size:15px;}
+.discover li b{color:var(--maroon-dark);}
+
+/* FORM */
+.form-card{background:#fff;border-radius:18px;padding:26px 24px;box-shadow:0 16px 44px rgba(91,14,37,0.16);border:1px solid var(--cream-dark);max-width:440px;}
+.form-card h3{font-size:23px;color:var(--maroon-dark);margin-bottom:4px;line-height:1.2;}
+.form-card p.fc-sub{font-size:14px;color:#7a6a5e;margin-bottom:18px;}
+.form-card input{width:100%;padding:14px 16px;margin-bottom:12px;border:1.5px solid var(--cream-dark);border-radius:10px;font-size:15px;font-family:'DM Sans',sans-serif;background:var(--cream);transition:border .2s;}
+.form-card input:focus{outline:none;border-color:var(--gold);}
+.form-note{font-size:12px;color:#9a8d82;text-align:center;margin-top:13px;line-height:1.5;}
+.form-note b{color:var(--maroon);}
+.microproof{margin-top:14px;font-size:14px;color:var(--maroon-dark);font-weight:600;text-align:center;}
+.microproof .stars{color:var(--gold);}
+
+/* HERO BOX IMAGE + PRICE ANCHOR */
+.hero-visual{text-align:center;position:relative;}
+.hero-visual img{max-width:360px;width:100%;filter:drop-shadow(0 24px 50px rgba(91,14,37,0.32));}
+.price-badge{display:inline-flex;align-items:center;gap:10px;margin-top:16px;background:#fff;border:2px solid var(--gold);border-radius:50px;padding:9px 22px;box-shadow:0 6px 18px rgba(91,14,37,0.12);}
+.price-badge .was{text-decoration:line-through;color:#9a8d82;font-size:17px;font-weight:600;}
+.price-badge .free{color:var(--maroon);font-size:20px;font-weight:800;letter-spacing:0.5px;}
+
+/* BOLLYWOOD MARQUEE */
+.trust{background:#fff;padding:34px 0 38px;border-top:1px solid var(--cream-dark);border-bottom:1px solid var(--cream-dark);overflow:hidden;}
+.trust .t-label{text-align:center;font-size:13px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-weight:700;margin-bottom:22px;}
+.marquee{display:flex;gap:22px;width:max-content;animation:scroll 30s linear infinite;}
+.trust:hover .marquee{animation-play-state:paused;}
+.marquee img{height:120px;width:auto;border-radius:12px;object-fit:cover;box-shadow:0 6px 18px rgba(91,14,37,0.12);}
+@keyframes scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* BELIEF SHIFT + PHOTO */
+.belief{padding:60px 20px;}
+.belief-grid{max-width:980px;margin:0 auto;display:grid;grid-template-columns:0.8fr 1.2fr;gap:46px;align-items:center;}
+.belief-photo{text-align:center;}
+.belief-photo img{width:230px;height:230px;border-radius:50%;object-fit:cover;border:4px solid var(--gold);box-shadow:0 14px 40px rgba(91,14,37,0.22);}
+.belief-photo .bp-name{margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:var(--maroon-dark);}
+.belief-photo .bp-title{font-size:13px;color:var(--gold);text-transform:uppercase;letter-spacing:1px;}
+.belief h2{font-size:36px;color:var(--maroon-dark);margin-bottom:16px;}
+.belief p{font-size:17px;color:#5c5048;line-height:1.8;margin-bottom:14px;}
+.belief .punch{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:23px;color:var(--maroon);}
+
+/* AUTHORITY */
+.authority{background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-dark) 100%);color:var(--cream);padding:46px 20px;text-align:center;}
+.authority .a-stats{display:flex;justify-content:center;flex-wrap:wrap;gap:46px;}
+.authority .a-stat .n{font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:700;color:var(--gold-light);line-height:1;}
+.authority .a-stat .l{font-size:13px;color:rgba(255,255,255,0.85);text-transform:uppercase;letter-spacing:1px;margin-top:6px;}
+
+/* RESULTS / SOCIAL PROOF */
+.results{padding:58px 20px;text-align:center;}
+.results .r-count{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--maroon-dark);margin-bottom:6px;}
+.results .r-count b{color:var(--maroon);}
+.results .r-sub{color:#7a6a5e;font-size:16px;margin-bottom:34px;}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:920px;margin:0 auto;}
+.benefit{background:#fff;border-radius:14px;padding:26px 22px;box-shadow:0 8px 24px rgba(91,14,37,0.08);border:1px solid var(--cream-dark);}
+.benefit .b-ico{font-size:26px;margin-bottom:10px;}
+.benefit h3{font-size:20px;color:var(--maroon);margin-bottom:8px;}
+.benefit p{font-size:14px;color:#5c5048;line-height:1.6;}
+
+/* FOMO + DECISION + FINAL */
+.final{padding:60px 20px 70px;background:var(--cream-dark);}
+.fomo{max-width:680px;margin:0 auto 30px;background:rgba(201,161,74,0.14);border:1px solid var(--gold);border-radius:14px;padding:18px 24px;text-align:center;color:var(--maroon-dark);font-size:15px;font-weight:600;}
+.fomo b{color:var(--maroon);}
+.final h2{font-size:38px;color:var(--maroon-dark);margin-bottom:14px;text-align:center;}
+.final .form-card{margin:0 auto 26px;text-align:left;}
+/* decision paths */
+.decision{max-width:680px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.dec{border-radius:14px;padding:20px 22px;font-size:14px;line-height:1.55;}
+.dec-yes{background:#fff;border:2px solid var(--gold);}
+.dec-yes .d-h{color:var(--maroon);font-weight:800;margin-bottom:8px;font-size:15px;}
+.dec-yes ul{list-style:none;padding:0;margin:0;}
+.dec-yes li{padding-left:22px;position:relative;margin-bottom:6px;color:var(--ink);}
+.dec-yes li::before{content:'✓';position:absolute;left:0;color:var(--maroon);font-weight:700;}
+.dec-no{background:#efe7df;border:2px solid #d9cbbd;}
+.dec-no .d-h{color:#7a6a5e;font-weight:800;margin-bottom:8px;font-size:15px;}
+.dec-no ul{list-style:none;padding:0;margin:0;}
+.dec-no li{padding-left:22px;position:relative;margin-bottom:6px;color:#8a7d72;}
+.dec-no li::before{content:'✕';position:absolute;left:0;color:#b0a294;font-weight:700;}
+
+footer{background:var(--maroon-dark);color:rgba(255,255,255,0.75);text-align:center;padding:26px 20px;font-size:13px;}
+footer a{color:var(--gold-light);text-decoration:none;}
+
+@media (max-width:768px){
+  .hero-grid{grid-template-columns:1fr;gap:30px;}
+  .hero h1{font-size:32px;}
+  .hero-visual{order:-1;}
+  .hero-visual img{max-width:240px;}
+  .form-card{max-width:100%;}
+  .belief-grid{grid-template-columns:1fr;gap:28px;text-align:center;}
+  .belief h2{font-size:28px;}
+  .benefits{grid-template-columns:1fr;}
+  .authority .a-stats{gap:28px;}
+  .decision{grid-template-columns:1fr;}
+  .final h2{font-size:28px;}
+  .marquee img{height:90px;}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <div class="hero-eyebrow">🌿 Free 1-Page Checklist</div>
+      <h1>The Daily Routine Dr. Madhu's Patients Use to Rebuild <span class="accent">Stamina &amp; Confidence</span> — Without Pills.</h1>
+      <p class="hero-sub">5 minutes a day. 100% natural. The exact checklist Dr. Madhu hands his patients instead of chasing chemical fixes — yours free.</p>
+      <ul class="discover">
+        <li>The <b>morning ritual</b> that quietly fuels stamina from the inside — most men get one part of it wrong</li>
+        <li>A <b>2-minute daily move</b> that restores blood flow — do it anywhere, no one will know</li>
+        <li>The <b>breathing reset</b> that calms performance anxiety in minutes</li>
+        <li>The <b>night-time habit</b> silently wrecking your results — and the 30-second fix</li>
+      </ul>
+      <div class="form-card" id="topForm">
+        <h3>Send Me The Free Checklist</h3>
+        <p class="fc-sub">Enter your details — it lands in your inbox in seconds.</p>
+        <form onsubmit="handleLead(event)">
+          <input type="text" name="first_name" placeholder="Your first name" required>
+          <input type="email" name="email_address" placeholder="Email address" required>
+          <button type="submit" class="cta-primary">Get The Free Routine →</button>
+        </form>
+        <div class="microproof"><span class="stars">★★★★★</span> Join <b>1,000+ men</b> already following it</div>
+        <p class="form-note"><b>100% free.</b> Instant access. Your details stay private — unsubscribe anytime.</p>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="routine-cover.png" alt="The Daily Power Routine — free checklist by Dr. Madhu Sudan">
+      <div class="price-badge"><span class="was">₹499 value</span><span class="free">FREE TODAY</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOLLYWOOD CREDIBILITY -->
+<section class="trust">
+  <div class="t-label">Dr. Madhu — Trusted Across India</div>
+  <div class="marquee">
+    <img src="celeb-arbaaz-khan.jpg" alt="">
+    <img src="celeb-govinda.jpg" alt="">
+    <img src="celeb-juhi-chawla.jpg" alt="">
+    <img src="celeb-karishma-kapoor.jpg" alt="">
+    <img src="celeb-soha-ali-khan.jpg" alt="">
+    <!-- duplicate for seamless loop -->
+    <img src="celeb-arbaaz-khan.jpg" alt="">
+    <img src="celeb-govinda.jpg" alt="">
+    <img src="celeb-juhi-chawla.jpg" alt="">
+    <img src="celeb-karishma-kapoor.jpg" alt="">
+    <img src="celeb-soha-ali-khan.jpg" alt="">
+  </div>
+</section>
+
+<!-- BELIEF SHIFT + PHOTO -->
+<section class="belief">
+  <div class="belief-grid">
+    <div class="belief-photo">
+      <img src="dr-madhu-quote.jpg" alt="Dr. Madhu Sudan">
+      <div class="bp-name">Dr. Madhu Sudan</div>
+      <div class="bp-title">India's Leading Ayurvedic Sexologist</div>
+    </div>
+    <div class="belief-text">
+      <h2>A Pill Hides the Problem. <span class="accent">A Routine Rebuilds You.</span></h2>
+      <p>Chemical fixes force a short-term result — then leave you dependent, anxious, and back where you started. My patients take a different path: small daily habits that restore stamina, energy and confidence at the root.</p>
+      <p>It's not complicated. It's not expensive. It just works — when you do it daily.</p>
+      <p class="punch">"Consistency beats intensity. Every single time." — Dr. Madhu</p>
+    </div>
+  </div>
+</section>
+
+<!-- AUTHORITY -->
+<section class="authority">
+  <div class="wrap">
+    <div class="a-stats">
+      <div class="a-stat"><div class="n">14+</div><div class="l">Years of Practice</div></div>
+      <div class="a-stat"><div class="n">1,14,000+</div><div class="l">Patients Treated</div></div>
+      <div class="a-stat"><div class="n">100%</div><div class="l">Natural &amp; Confidential</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS / SOCIAL PROOF -->
+<section class="results">
+  <div class="wrap">
+    <div class="r-count"><b>1,000+ men</b> have downloaded this routine</div>
+    <div class="r-sub">Here's what changes when you actually follow it 👇</div>
+    <div class="benefits">
+      <div class="benefit">
+        <div class="b-ico">⚡</div>
+        <h3>More Energy</h3>
+        <p>Wake up with drive instead of dragging through the day. The nutrition + movement combo refuels you naturally.</p>
+      </div>
+      <div class="benefit">
+        <div class="b-ico">💪</div>
+        <h3>Stronger Stamina</h3>
+        <p>Better blood flow, better performance. The daily moves target exactly where it matters — quietly and consistently.</p>
+      </div>
+      <div class="benefit">
+        <div class="b-ico">🧠</div>
+        <h3>Calm Confidence</h3>
+        <p>Kill the anxiety that sabotages performance. The breathing reset puts your mind and body back in control.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOMO + DECISION + FINAL CTA -->
+<section class="final">
+  <div class="fomo">⏳ <b>Heads up:</b> this checklist is free for now — Dr. Madhu plans to move it inside his paid program soon. Grab it free while you still can.</div>
+  <h2>Make Your Choice</h2>
+  <div class="form-card">
+    <form onsubmit="handleLead(event)">
+      <input type="text" name="first_name" placeholder="Your first name" required>
+      <input type="email" name="email_address" placeholder="Email address" required>
+      <button type="submit" class="cta-primary">Yes — Send Me The Free Routine →</button>
+    </form>
+    <p class="form-note"><b>100% free.</b> Instant access. Your details stay private.</p>
+  </div>
+  <div class="decision">
+    <div class="dec dec-yes">
+      <div class="d-h">✓ YES — I want the routine</div>
+      <ul>
+        <li>Start rebuilding stamina &amp; energy tonight</li>
+        <li>Stop wasting money on pills that don't last</li>
+        <li>A simple plan, free, in my inbox in seconds</li>
+      </ul>
+    </div>
+    <div class="dec dec-no">
+      <div class="d-h">✕ No thanks</div>
+      <ul>
+        <li>Keep guessing what actually works</li>
+        <li>Keep spending on fixes that fade by morning</li>
+        <li>Keep wondering why nothing changes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Arogya Clinic · Dr. Madhu Sudan · For queries: <a href="mailto:hello@drmadhusudan.com">hello@drmadhusudan.com</a>
+</footer>
+
+<script>
+const CONFIG = {
+  KIT_FORM_ACTION: "https://app.kit.com/forms/FORM_ID/subscriptions" // ← replace FORM_ID
+};
+function getUTMs(){var p=new URLSearchParams(window.location.search);return {source:p.get('utm_source')||'',medium:p.get('utm_medium')||'',campaign:p.get('utm_campaign')||'',term:p.get('utm_term')||'',content:p.get('utm_content')||''};}
+(function(){var u=getUTMs();if(u.source)sessionStorage.setItem('utms',JSON.stringify(u));})();
+function handleLead(e){
+  e.preventDefault();
+  var name=e.target.first_name.value.trim();
+  var email=e.target.email_address.value.trim();
+  if(name.length<2){alert('Please enter your name');return;}
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){alert('Please enter a valid email');return;}
+  var btn=e.target.querySelector('button');btn.textContent='Sending…';btn.disabled=true;
+  var fd=new FormData();
+  fd.append('email_address',email);
+  fd.append('fields[first_name]',name);
+  var utms=JSON.parse(sessionStorage.getItem('utms')||'{}');
+  if(utms.source)fd.append('fields[utm_source]',utms.source);
+  if(utms.medium)fd.append('fields[utm_medium]',utms.medium);
+  if(utms.campaign)fd.append('fields[utm_campaign]',utms.campaign);
+  if(utms.term)fd.append('fields[utm_term]',utms.term);
+  if(utms.content)fd.append('fields[utm_content]',utms.content);
+  fetch(CONFIG.KIT_FORM_ACTION,{method:'POST',body:new URLSearchParams(fd)})
+    .then(function(){window.location.href='/thank-you';})
+    .catch(function(){window.location.href='/thank-you';});
+}
+</script>
+</body>
+</html>
